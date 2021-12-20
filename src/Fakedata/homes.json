@@ -1,0 +1,13 @@
+[
+    {"_id":"61bc3240df794f4a4a478b63",
+    "name":"Home",
+    "location":"New york",
+    "price":"200000",
+    "img":"https://i.postimg.cc/sD28yF2Q/rsz-truck-1.png"},
+
+    {"_id":"61bdca6fa2f3c1032cc46733",
+    "name":"Homw-2",
+    "location":"Washington",
+    "price":"3000000",
+    "img":"https://i.postimg.cc/sD28yF2Q/rsz-truck-1.png"}
+]
