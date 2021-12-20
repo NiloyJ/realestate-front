@@ -9,13 +9,13 @@ const Allhomes = () => {
     const dispatch = useDispatch()
     const [homes, setHomes] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/homes")
+        fetch("http://fathomless-oasis-67863.herokuapp.com/homes")
             .then(res => res.json())
             .then(result => setHomes(result))
     }, [])
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/deletehome/${id}`, {
+        fetch(`http://fathomless-oasis-67863.herokuapp.com/deletehome/${id}`, {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' }
         })

@@ -33,7 +33,7 @@ const Addservice = () => {
     const handleAddUser = () => {
         const data = {name,location,price,room,bathroom,img}
         console.log({ name, location, price,img });
-        fetch('http://localhost:5000/addhome', {
+        fetch('https://fathomless-oasis-67863.herokuapp.com/addhome', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data),

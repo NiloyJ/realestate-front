@@ -44,6 +44,7 @@ function App() {
             <Route path="/allhomes" element={<Allhomes></Allhomes>}>
 
             </Route>
+
             <Route path="/home/:name" element={<Details></Details>}>
 
             </Route>
@@ -52,7 +53,7 @@ function App() {
             </Route>
 
             <Route element={<PrivateRoute />}>
-              <Route path="/wishlist" element={<Wishlist/>} />
+              <Route path="/wishlist" element={<Wishlist />} />
 
             </Route>
 

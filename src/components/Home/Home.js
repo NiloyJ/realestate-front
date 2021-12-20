@@ -45,6 +45,7 @@ const Home = () => {
                             <Link to="/register"><li><a style={{ color: 'black' }} href="#">Register</a></li></Link>
                             <Link to="/wishlist"><li><a style={{ color: 'black' }} href="#">wishlist</a></li></Link>
                             <Link to="/login"><li><a style={{ color: 'black' }} href="#">Login</a></li></Link>
+                            <Link to="/allhomes"><li><a style={{ color: 'black' }} href="#">All homes</a></li></Link>
                             <h2>{user.displayName}</h2>
                             {user?.email && <button onClick={logout} className='btn btn-primary'>Log out</button>}
                         </div>

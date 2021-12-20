@@ -7,7 +7,7 @@ const Details = () => {
     const [getBooking, setBooking] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/homes/')
+        fetch('https://fathomless-oasis-67863.herokuapp.com/homes/')
             .then(res => res.json())
             .then(data => setBooking(data))
     }, [])
